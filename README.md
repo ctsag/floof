@@ -1,2 +1,2 @@
-# floof
+# Floof
 Floof : Your Meal Planner

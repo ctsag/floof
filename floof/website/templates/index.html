@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Welcome!{% endblock %}
+{% block content %}
+        <h1>Welcome to <em>Floof</em>, your meal planner!</h1>
+
+        <h2>Meals</h2>
+        <ul>
+        {% for meal in meals %}
+            <li>{{meal}}</li>
+        {% endfor %}
+        </ul>
+
+        <h2>Meal ingredients</h2>
+        <ul>
+        {% for meal_ingredient in meal_ingredients %}
+            <li>{{meal_ingredient}}</li>
+        {% endfor %}
+        </ul>
+
+        <h2>Ingredients</h2>
+        <ul>
+        {% for ingredient in ingredients %}
+            <li>{{ingredient}}</li>
+        {% endfor %}
+        </ul>
+{% endblock %}
