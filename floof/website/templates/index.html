@@ -21,7 +21,7 @@
         <h2>Ingredients</h2>
         <ul>
         {% for ingredient in ingredients %}
-            <li>{{ingredient}}</li>
+            <li><a href="{{ingredient.url}}">{{ingredient}}</a></li>
         {% endfor %}
         </ul>
 {% endblock %}

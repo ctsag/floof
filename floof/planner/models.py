@@ -4,6 +4,7 @@ class Ingredient(models.Model):
     name = models.CharField(max_length=64)
     units = models.IntegerField(default=1)
     price = models.DecimalField(max_digits=4, decimal_places=2, default=0)
+    url = models.URLField(blank=True, null=True)
 
     objects = models.Manager()
 
