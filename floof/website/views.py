@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from planner.models import Meal, MealIngredient, Ingredient
+from planner.models import Meal, Ingredient
 
 
 def index(request):
@@ -8,7 +8,6 @@ def index(request):
         'index.html',
         {
             'meals': Meal.objects.all(),
-            'meal_ingredients': MealIngredient.objects.all(),
             'ingredients': Ingredient.objects.all()
         }
     )
