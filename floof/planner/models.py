@@ -1,6 +1,9 @@
 from django.db import models
 
 class Ingredient(models.Model):
+    class Meta:
+        ordering = ['name']
+
     name = models.CharField(max_length=64)
     units = models.IntegerField(default=1)
     price = models.DecimalField(max_digits=4, decimal_places=2, default=0)
@@ -15,6 +18,9 @@ class Ingredient(models.Model):
         return f'{self.name}'
 
 class Meal(models.Model):
+    class Meta:
+        ordering = ['name']
+
     name = models.CharField(max_length=128)
     ingredients = models.ManyToManyField(Ingredient, through='MealIngredient')
 
