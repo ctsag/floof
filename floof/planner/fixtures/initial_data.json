@@ -1,0 +1,1542 @@
+[
+{
+    "model": "planner.ingredient",
+    "pk": 1,
+    "fields": {
+        "name": "Καφές",
+        "units": 10,
+        "price": "3.16",
+        "url": "https://www.skroutz.gr/s/43959795/Starbucks-Espresso-Colombia-Kapsoules-Symvates-Me-Michanes-Nespresso-53gr.html?product_id=168752211"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 2,
+    "fields": {
+        "name": "Halls",
+        "units": 8,
+        "price": "0.97",
+        "url": "https://www.skroutz.gr/s/43960569/Halls-Original-Xoris-Zachari-Karamela-Kerasi-32gr.html?product_id=168756036"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 3,
+    "fields": {
+        "name": "Pizza",
+        "units": 3,
+        "price": "9.93",
+        "url": "https://www.skroutz.gr/s/44020147/Yfantis-Pitsa-Rock-N-Roll-1380gr.html?product_id=168745859"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 4,
+    "fields": {
+        "name": "Bacon",
+        "units": 6,
+        "price": "2.40",
+        "url": "https://www.skroutz.gr/s/44020266/Yfantis-Mpeikon-Kapnisto-100gr.html?product_id=168750264"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 5,
+    "fields": {
+        "name": "Burger",
+        "units": 6,
+        "price": "6.33",
+        "url": "https://www.skroutz.gr/s/44025294/Just-Hot-Mpiftekia-PSimena-Katepsygmena-480gr.html?product_id=168751068"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 6,
+    "fields": {
+        "name": "Cheddar Sauce",
+        "units": 10,
+        "price": "2.85",
+        "url": "https://www.skroutz.gr/s/55588438/Condito-Cheddar-Sauce-CHoris-Glouteni-330gr.html?product_id=216504541"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 7,
+    "fields": {
+        "name": "Crackers",
+        "units": 3,
+        "price": "1.15",
+        "url": "https://www.skroutz.gr/s/43960036/Papadopoulou-Pick-Crackers-Bacon-100gr.html?product_id=168753091"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 8,
+    "fields": {
+        "name": "Gouda",
+        "units": 10,
+        "price": "2.50",
+        "url": "https://www.skroutz.gr/s/59302741/NOUNOU-Gouda-Se-Fetes-200gr.html?product_id=168753206"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 9,
+    "fields": {
+        "name": "Ketchup",
+        "units": 10,
+        "price": "2.86",
+        "url": "https://www.skroutz.gr/s/44013904/Heinz-Ketsap-Top-Down-460gr.html?product_id=168753971"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 10,
+    "fields": {
+        "name": "Nutella & Go",
+        "units": 1,
+        "price": "1.99",
+        "url": "https://www.skroutz.gr/s/43960186/Ferrero-Nutella-Go-52gr.html?product_id=168753424"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 11,
+    "fields": {
+        "name": "Pop Corn",
+        "units": 6,
+        "price": "3.10",
+        "url": "https://www.skroutz.gr/s/45222306/My-Popcorn-Me-Elaiolado-THalassino-Alati-185gr.html?product_id=168753099"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 12,
+    "fields": {
+        "name": "Siracha Mayo",
+        "units": 6,
+        "price": "4.19",
+        "url": "https://www.skroutz.gr/s/45230945/Go-Tan-Sauce-Spiracha-Payo-215ml.html?product_id=168754668"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 13,
+    "fields": {
+        "name": "Αγγούρι",
+        "units": 1,
+        "price": "0.20",
+        "url": "https://www.skroutz.gr/s/44041529/Agourakia-Ellinika-1-temachio-180gr.html?product_id=168742739"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 14,
+    "fields": {
+        "name": "Αυγά",
+        "units": 6,
+        "price": "2.55",
+        "url": "https://www.skroutz.gr/s/44035939/Ipeirotika-Ayga-6ada-63-73G-Large.html?product_id=168744753"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 15,
+    "fields": {
+        "name": "Γιαούρτι",
+        "units": 3,
+        "price": "3.83",
+        "url": "https://www.skroutz.gr/s/44016788/FAGE-Total-Stragisto-Giaourti-5-Lipara-3x200gr.html?product_id=168752911"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 16,
+    "fields": {
+        "name": "Καρπούζι",
+        "units": 2,
+        "price": "3.03",
+        "url": "https://www.skroutz.gr/s/44113375/Karpouzi-Atomiko-Egchorio-1-temachio-3-4kg.html?product_id=168742761"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 17,
+    "fields": {
+        "name": "Πιτες για σουβλάκια",
+        "units": 10,
+        "price": "1.61",
+        "url": "https://www.skroutz.gr/s/43958972/Karamolegos-Pites-Axiagapites-Megales-10Temachia-820gr.html?product_id=168752689"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 18,
+    "fields": {
+        "name": "Τομάτα",
+        "units": 6,
+        "price": "2.07",
+        "url": "https://www.skroutz.gr/s/44038717/Tomata-Dramas-Petrousa-Poiotita-A-1-temachio-230gr.html?product_id=168745968"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 19,
+    "fields": {
+        "name": "Φέτα",
+        "units": 6,
+        "price": "5.54",
+        "url": "https://www.skroutz.gr/s/44020113/%CE%99peiros-Feta-P-O-P-400gr.html?product_id=168749641"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 20,
+    "fields": {
+        "name": "Κοτόπουλο",
+        "units": 2,
+        "price": "10.62",
+        "url": "https://www.skroutz.gr/s/45138096/Elaiopoulaki-Fileto-Stithos-Kotopoulo-600gr.html?product_id=168751498"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 21,
+    "fields": {
+        "name": "Σάλτσα για τηγανιά",
+        "units": 2,
+        "price": "3.44",
+        "url": "https://www.skroutz.gr/s/45403246/Cook-At-Home-Saltsa-Gia-Tigania-Krasato-Kotopoulo-265gr.html?product_id=169023902"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 22,
+    "fields": {
+        "name": "Αρακάς",
+        "units": 6,
+        "price": "3.29",
+        "url": "https://www.skroutz.gr/s/44034804/Mparmpa-Stathis-Arakas-Katepsygmenos-420gr.html?product_id=168750919"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 23,
+    "fields": {
+        "name": "Ψωμί για τοστ",
+        "units": 20,
+        "price": "1.93",
+        "url": "https://www.skroutz.gr/s/43961471/Karamolegos-PSomi-Tost-PSicha-Starenio-480gr.html?product_id=168752707"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 24,
+    "fields": {
+        "name": "Παριζάκι",
+        "units": 8,
+        "price": "4.71",
+        "url": "https://www.skroutz.gr/s/52562181/Yfantis-Parizaki-CHoris-Glouteni-500gr.html?product_id=168744738"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 25,
+    "fields": {
+        "name": "Μουστάρδα",
+        "units": 20,
+        "price": "3.97",
+        "url": "https://www.skroutz.gr/s/43959086/French-s-Moustarda-397gr.html?product_id=168752331"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 26,
+    "fields": {
+        "name": "Ελιές",
+        "units": 5,
+        "price": "2.28",
+        "url": null
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 27,
+    "fields": {
+        "name": "Παγωτό οικογενειακό",
+        "units": 10,
+        "price": "14.90",
+        "url": "https://www.skroutz.gr/s/60818056/evga-pagoto-fystiki-kakao-mpanana-1350gr-e.html?product_id=255814456"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 28,
+    "fields": {
+        "name": "Χωνάκια",
+        "units": 9,
+        "price": "2.69",
+        "url": "https://www.skroutz.gr/s/44048019/Gelatomania-Konoi-Pagotou-9Temachia.html?product_id=200995633"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 29,
+    "fields": {
+        "name": "Φασόλια",
+        "units": 2,
+        "price": "1.49",
+        "url": "https://www.skroutz.gr/s/43958940/Kyknos-Fasolia-Kokkina-400gr.html?product_id=168743085"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 30,
+    "fields": {
+        "name": "Λουκάνικο",
+        "units": 4,
+        "price": "4.71",
+        "url": "https://www.skroutz.gr/s/44017847/Creta-Farms-Loukanika-CHoriatika-Pikantika-400gr.html?product_id=169553025"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 31,
+    "fields": {
+        "name": "Μέλι",
+        "units": 20,
+        "price": "8.96",
+        "url": "https://www.skroutz.gr/s/43961875/Attiki-Meli-Melissaki-470gr.html?product_id=168754549"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 32,
+    "fields": {
+        "name": "Χταπόδι",
+        "units": 1,
+        "price": "3.99",
+        "url": null
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 33,
+    "fields": {
+        "name": "Πατατάκια",
+        "units": 3,
+        "price": "2.53",
+        "url": "https://www.skroutz.gr/s/43961042/Jumbo-Chips-Alati-Kymatista-280gr.html?product_id=168745763"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 34,
+    "fields": {
+        "name": "Λεμόνι",
+        "units": 6,
+        "price": "2.49",
+        "url": "https://www.skroutz.gr/s/44060625/Lemonia-Eisagogis-Poiotita-A-6-temachio-1kg.html?product_id=168753723"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 35,
+    "fields": {
+        "name": "Μπιφτέκια",
+        "units": 2,
+        "price": "6.59",
+        "url": "https://www.skroutz.gr/s/45472889/Farma-Elassonas-Mpifteki-Paradosiako-Nopo-Elliniko-600gr.html?product_id=168751522"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 36,
+    "fields": {
+        "name": "Τορτελίνια",
+        "units": 2,
+        "price": "3.44",
+        "url": "https://www.skroutz.gr/s/43959042/Barilla-Zymarika-Tortellini-Me-Tyria-250gr.html?product_id=168754175"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 37,
+    "fields": {
+        "name": "Pesto Mediterraneo",
+        "units": 1,
+        "price": "2.69",
+        "url": "https://www.skroutz.gr/s/43959528/Primo-Gusto-Saltsa-Pesto-Mediterraneo-190gr.html?product_id=168743719"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 38,
+    "fields": {
+        "name": "Τριμμένο τυρί",
+        "units": 4,
+        "price": "2.95",
+        "url": "https://www.skroutz.gr/s/44019200/Parmissimo-Parmigiano-Reggiano-Italias-Trimmeni-90gr.html?product_id=168751491"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 39,
+    "fields": {
+        "name": "Γραβιέρα σε τριγωνάκια",
+        "units": 16,
+        "price": "2.92",
+        "url": "https://www.skroutz.gr/s/44020115/%CE%99peiros-Trigonakia-Me-Graviera-280gr.html?product_id=168753198"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 40,
+    "fields": {
+        "name": "Ψωμί για burger",
+        "units": 6,
+        "price": "2.32",
+        "url": "https://www.skroutz.gr/s/43959138/Karamolegos-PSomakia-Burgers-480gr-6tem.html?product_id=168755158"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 41,
+    "fields": {
+        "name": "Πεπόνι",
+        "units": 2,
+        "price": "2.09",
+        "url": "https://www.skroutz.gr/s/44041355/Peponi-Egchorio-1-temachio-1-5kg.html?product_id=168752075"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 42,
+    "fields": {
+        "name": "Βίδες",
+        "units": 2,
+        "price": "1.00",
+        "url": "https://www.skroutz.gr/s/43959806/Melissa-Strifto-500gr.html?product_id=168746456"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 43,
+    "fields": {
+        "name": "Pesto",
+        "units": 2,
+        "price": "5.56",
+        "url": "https://www.skroutz.gr/s/59466547/Barilla-Pesto-Saltsa-Genovese-190gr-2tem.html?product_id=247177355"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 44,
+    "fields": {
+        "name": "Σπανακόπιτα",
+        "units": 2,
+        "price": "5.70",
+        "url": "https://www.skroutz.gr/s/44020629/CHavelas-Zagorisia-Tylichti-Spanakopita-650gr.html?product_id=168753520"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 45,
+    "fields": {
+        "name": "Μπριζόλα χοιρινή",
+        "units": 2,
+        "price": "5.89",
+        "url": "https://www.skroutz.gr/s/48098235/Farma-Elassonas-BBQ-Steak-Nopo-Elliniko-400gr.html?product_id=177901945"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 46,
+    "fields": {
+        "name": "Μακαρόνια",
+        "units": 4,
+        "price": "0.70",
+        "url": "https://www.skroutz.gr/s/43958713/Misko-Spagetini-No-10-500gr.html?product_id=168751608"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 47,
+    "fields": {
+        "name": "Κιμάς",
+        "units": 2,
+        "price": "4.45",
+        "url": "https://www.skroutz.gr/s/45373638/Farma-Elassonas-Kimas-Anameiktos-Nopos-400gr.html?product_id=168753259"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 48,
+    "fields": {
+        "name": "Falafel",
+        "units": 20,
+        "price": "4.37",
+        "url": "https://www.skroutz.gr/s/44035875/Nikolopoulou-Falafel-Katepsygmena-500gr.html?product_id=168751102"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 49,
+    "fields": {
+        "name": "Μαρούλι",
+        "units": 5,
+        "price": "1.19",
+        "url": "https://www.skroutz.gr/s/44034920/My-Fresco-Salata-Fantasia-Marouli-Eskarol-Galliki-Salata-100gr.html?product_id=172944591"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 50,
+    "fields": {
+        "name": "Hummus",
+        "units": 6,
+        "price": "3.40",
+        "url": "https://www.skroutz.gr/s/44035303/Yfantis-CHoumous-Lemoni-400gr.html?product_id=168750808"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 51,
+    "fields": {
+        "name": "Κριθαράκι",
+        "units": 2,
+        "price": "0.90",
+        "url": "https://www.skroutz.gr/s/43959293/Misko-Kritharaki-Metrio-500gr.html?product_id=168754166"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 52,
+    "fields": {
+        "name": "Μανιτάρια",
+        "units": 3,
+        "price": "1.86",
+        "url": "https://www.skroutz.gr/s/43959043/Holco-Manitaria-Temachismena-200gr.html?product_id=168746104"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 53,
+    "fields": {
+        "name": "Κρεμμύδι",
+        "units": 1,
+        "price": "0.17",
+        "url": "https://www.skroutz.gr/s/44043411/Kremmydia-Kokkina-Xera-Metria-Ellinika-Poiotita-A-1-temachio-180gr.html?product_id=168752097"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 54,
+    "fields": {
+        "name": "Μπανάνα",
+        "units": 5,
+        "price": "1.85",
+        "url": "https://www.skroutz.gr/s/57445792/Mpananes-Dole-Eisagogis-5-temachia-1kg.html?product_id=168752103"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 55,
+    "fields": {
+        "name": "Κεμπάπ",
+        "units": 4,
+        "price": "5.57",
+        "url": "https://www.skroutz.gr/s/44010726/Meatka-Kempap-Politiko-E-E-Diskaki-500gr.html?product_id=168742122"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 56,
+    "fields": {
+        "name": "Τζατζίκι",
+        "units": 6,
+        "price": "3.10",
+        "url": "https://www.skroutz.gr/s/44019910/Yfantis-Tzatziki-400gr.html?product_id=168752608"
+    }
+},
+{
+    "model": "planner.ingredient",
+    "pk": 57,
+    "fields": {
+        "name": "Σνίτσελ",
+        "units": 4,
+        "price": "6.70",
+        "url": "https://www.skroutz.gr/s/44022830/Mimikos-Pikantika-Snitsel-Kotopoulou-470gr-0-50euro.html?product_id=168750061"
+    }
+},
+{
+    "model": "planner.meal",
+    "pk": 1,
+    "fields": {
+        "name": "Πρωϊνό"
+    }
+},
+{
+    "model": "planner.meal",
+    "pk": 2,
+    "fields": {
+        "name": "Pizza"
+    }
+},
+{
+    "model": "planner.meal",
+    "pk": 3,
+    "fields": {
+        "name": "Καρπούζι"
+    }
+},
+{
+    "model": "planner.meal",
+    "pk": 4,
+    "fields": {
+        "name": "Αρακάς και κοτόπουλο"
+    }
+},
+{
+    "model": "planner.meal",
+    "pk": 6,
+    "fields": {
+        "name": "Κοτόπουλο και σαλάτα"
+    }
+},
+{
+    "model": "planner.meal",
+    "pk": 7,
+    "fields": {
+        "name": "Παγωτό σε χωνάκια"
+    }
+},
+{
+    "model": "planner.meal",
+    "pk": 8,
+    "fields": {
+        "name": "Γιαούρτι"
+    }
+},
+{
+    "model": "planner.meal",
+    "pk": 9,
+    "fields": {
+        "name": "Χταπόδι και σαλάτα"
+    }
+},
+{
+    "model": "planner.meal",
+    "pk": 10,
+    "fields": {
+        "name": "Πατατάκια"
+    }
+},
+{
+    "model": "planner.meal",
+    "pk": 11,
+    "fields": {
+        "name": "Μπιφτέκια και σαλάτα"
+    }
+},
+{
+    "model": "planner.meal",
+    "pk": 12,
+    "fields": {
+        "name": "Nutella sticks"
+    }
+},
+{
+    "model": "planner.meal",
+    "pk": 13,
+    "fields": {
+        "name": "Τορτελίνια με λουκάνικο"
+    }
+},
+{
+    "model": "planner.meal",
+    "pk": 14,
+    "fields": {
+        "name": "Τοστ παριζάκι και πατατάκια"
+    }
+},
+{
+    "model": "planner.meal",
+    "pk": 15,
+    "fields": {
+        "name": "Τοστ παριζάκι"
+    }
+},
+{
+    "model": "planner.meal",
+    "pk": 16,
+    "fields": {
+        "name": "Burgers"
+    }
+},
+{
+    "model": "planner.meal",
+    "pk": 17,
+    "fields": {
+        "name": "Πεπόνι"
+    }
+},
+{
+    "model": "planner.meal",
+    "pk": 18,
+    "fields": {
+        "name": "Crackers"
+    }
+},
+{
+    "model": "planner.meal",
+    "pk": 19,
+    "fields": {
+        "name": "Βίδες"
+    }
+},
+{
+    "model": "planner.meal",
+    "pk": 20,
+    "fields": {
+        "name": "Σπανακόπιτα"
+    }
+},
+{
+    "model": "planner.meal",
+    "pk": 22,
+    "fields": {
+        "name": "Pop Corn"
+    }
+},
+{
+    "model": "planner.meal",
+    "pk": 23,
+    "fields": {
+        "name": "Εκτός σπιτιού"
+    }
+},
+{
+    "model": "planner.meal",
+    "pk": 24,
+    "fields": {
+        "name": "Μακαρόνια με κιμά"
+    }
+},
+{
+    "model": "planner.meal",
+    "pk": 27,
+    "fields": {
+        "name": "Falafel"
+    }
+},
+{
+    "model": "planner.meal",
+    "pk": 28,
+    "fields": {
+        "name": "Κριθαράκι με κοτόπουλο"
+    }
+},
+{
+    "model": "planner.meal",
+    "pk": 29,
+    "fields": {
+        "name": "Μπανάνα"
+    }
+},
+{
+    "model": "planner.meal",
+    "pk": 30,
+    "fields": {
+        "name": "Μπριζόλα και σαλάτα"
+    }
+},
+{
+    "model": "planner.meal",
+    "pk": 31,
+    "fields": {
+        "name": "Πίτες με κεμπάπ"
+    }
+},
+{
+    "model": "planner.meal",
+    "pk": 32,
+    "fields": {
+        "name": "Σνιτσελ και σαλάτα"
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 1,
+    "fields": {
+        "meal": 1,
+        "ingredient": 1,
+        "quantity": 2
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 2,
+    "fields": {
+        "meal": 1,
+        "ingredient": 2,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 3,
+    "fields": {
+        "meal": 2,
+        "ingredient": 3,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 4,
+    "fields": {
+        "meal": 3,
+        "ingredient": 16,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 5,
+    "fields": {
+        "meal": 3,
+        "ingredient": 1,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 6,
+    "fields": {
+        "meal": 4,
+        "ingredient": 22,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 7,
+    "fields": {
+        "meal": 4,
+        "ingredient": 20,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 8,
+    "fields": {
+        "meal": 4,
+        "ingredient": 21,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 12,
+    "fields": {
+        "meal": 6,
+        "ingredient": 20,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 13,
+    "fields": {
+        "meal": 6,
+        "ingredient": 18,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 14,
+    "fields": {
+        "meal": 6,
+        "ingredient": 13,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 15,
+    "fields": {
+        "meal": 6,
+        "ingredient": 19,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 16,
+    "fields": {
+        "meal": 6,
+        "ingredient": 26,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 17,
+    "fields": {
+        "meal": 7,
+        "ingredient": 27,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 18,
+    "fields": {
+        "meal": 7,
+        "ingredient": 28,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 19,
+    "fields": {
+        "meal": 7,
+        "ingredient": 1,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 20,
+    "fields": {
+        "meal": 8,
+        "ingredient": 15,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 21,
+    "fields": {
+        "meal": 8,
+        "ingredient": 31,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 22,
+    "fields": {
+        "meal": 9,
+        "ingredient": 32,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 23,
+    "fields": {
+        "meal": 9,
+        "ingredient": 18,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 24,
+    "fields": {
+        "meal": 9,
+        "ingredient": 13,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 25,
+    "fields": {
+        "meal": 9,
+        "ingredient": 19,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 26,
+    "fields": {
+        "meal": 9,
+        "ingredient": 26,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 27,
+    "fields": {
+        "meal": 10,
+        "ingredient": 33,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 28,
+    "fields": {
+        "meal": 6,
+        "ingredient": 34,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 29,
+    "fields": {
+        "meal": 11,
+        "ingredient": 35,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 30,
+    "fields": {
+        "meal": 11,
+        "ingredient": 12,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 31,
+    "fields": {
+        "meal": 11,
+        "ingredient": 18,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 32,
+    "fields": {
+        "meal": 11,
+        "ingredient": 13,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 33,
+    "fields": {
+        "meal": 11,
+        "ingredient": 19,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 34,
+    "fields": {
+        "meal": 11,
+        "ingredient": 26,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 35,
+    "fields": {
+        "meal": 12,
+        "ingredient": 10,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 36,
+    "fields": {
+        "meal": 12,
+        "ingredient": 1,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 37,
+    "fields": {
+        "meal": 13,
+        "ingredient": 36,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 38,
+    "fields": {
+        "meal": 13,
+        "ingredient": 30,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 39,
+    "fields": {
+        "meal": 13,
+        "ingredient": 37,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 40,
+    "fields": {
+        "meal": 13,
+        "ingredient": 38,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 41,
+    "fields": {
+        "meal": 14,
+        "ingredient": 23,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 42,
+    "fields": {
+        "meal": 14,
+        "ingredient": 24,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 43,
+    "fields": {
+        "meal": 14,
+        "ingredient": 8,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 44,
+    "fields": {
+        "meal": 14,
+        "ingredient": 25,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 45,
+    "fields": {
+        "meal": 14,
+        "ingredient": 33,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 46,
+    "fields": {
+        "meal": 15,
+        "ingredient": 23,
+        "quantity": 2
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 47,
+    "fields": {
+        "meal": 15,
+        "ingredient": 24,
+        "quantity": 2
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 48,
+    "fields": {
+        "meal": 15,
+        "ingredient": 39,
+        "quantity": 2
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 49,
+    "fields": {
+        "meal": 16,
+        "ingredient": 40,
+        "quantity": 2
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 50,
+    "fields": {
+        "meal": 16,
+        "ingredient": 5,
+        "quantity": 2
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 51,
+    "fields": {
+        "meal": 16,
+        "ingredient": 6,
+        "quantity": 2
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 52,
+    "fields": {
+        "meal": 16,
+        "ingredient": 9,
+        "quantity": 2
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 53,
+    "fields": {
+        "meal": 17,
+        "ingredient": 41,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 54,
+    "fields": {
+        "meal": 17,
+        "ingredient": 1,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 55,
+    "fields": {
+        "meal": 18,
+        "ingredient": 7,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 56,
+    "fields": {
+        "meal": 19,
+        "ingredient": 42,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 57,
+    "fields": {
+        "meal": 19,
+        "ingredient": 30,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 58,
+    "fields": {
+        "meal": 19,
+        "ingredient": 43,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 59,
+    "fields": {
+        "meal": 19,
+        "ingredient": 38,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 60,
+    "fields": {
+        "meal": 20,
+        "ingredient": 44,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 62,
+    "fields": {
+        "meal": 22,
+        "ingredient": 11,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 63,
+    "fields": {
+        "meal": 24,
+        "ingredient": 46,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 64,
+    "fields": {
+        "meal": 24,
+        "ingredient": 47,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 66,
+    "fields": {
+        "meal": 24,
+        "ingredient": 9,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 67,
+    "fields": {
+        "meal": 24,
+        "ingredient": 38,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 72,
+    "fields": {
+        "meal": 27,
+        "ingredient": 48,
+        "quantity": 8
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 73,
+    "fields": {
+        "meal": 27,
+        "ingredient": 17,
+        "quantity": 2
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 74,
+    "fields": {
+        "meal": 27,
+        "ingredient": 49,
+        "quantity": 2
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 75,
+    "fields": {
+        "meal": 27,
+        "ingredient": 50,
+        "quantity": 2
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 76,
+    "fields": {
+        "meal": 28,
+        "ingredient": 51,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 77,
+    "fields": {
+        "meal": 28,
+        "ingredient": 20,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 78,
+    "fields": {
+        "meal": 28,
+        "ingredient": 52,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 79,
+    "fields": {
+        "meal": 28,
+        "ingredient": 38,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 80,
+    "fields": {
+        "meal": 28,
+        "ingredient": 53,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 81,
+    "fields": {
+        "meal": 29,
+        "ingredient": 54,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 82,
+    "fields": {
+        "meal": 29,
+        "ingredient": 1,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 83,
+    "fields": {
+        "meal": 30,
+        "ingredient": 45,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 84,
+    "fields": {
+        "meal": 30,
+        "ingredient": 18,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 85,
+    "fields": {
+        "meal": 30,
+        "ingredient": 13,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 86,
+    "fields": {
+        "meal": 30,
+        "ingredient": 19,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 87,
+    "fields": {
+        "meal": 30,
+        "ingredient": 26,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 88,
+    "fields": {
+        "meal": 31,
+        "ingredient": 55,
+        "quantity": 2
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 89,
+    "fields": {
+        "meal": 31,
+        "ingredient": 17,
+        "quantity": 2
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 90,
+    "fields": {
+        "meal": 31,
+        "ingredient": 56,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 91,
+    "fields": {
+        "meal": 32,
+        "ingredient": 57,
+        "quantity": 2
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 92,
+    "fields": {
+        "meal": 32,
+        "ingredient": 18,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 93,
+    "fields": {
+        "meal": 32,
+        "ingredient": 13,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 94,
+    "fields": {
+        "meal": 32,
+        "ingredient": 19,
+        "quantity": 1
+    }
+},
+{
+    "model": "planner.mealingredient",
+    "pk": 95,
+    "fields": {
+        "meal": 32,
+        "ingredient": 26,
+        "quantity": 1
+    }
+}
+]
