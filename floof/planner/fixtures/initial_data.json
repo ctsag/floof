@@ -573,196 +573,224 @@
     "model": "planner.meal",
     "pk": 1,
     "fields": {
-        "name": "Πρωϊνό"
+        "name": "Πρωϊνό",
+        "healthiness": 5
     }
 },
 {
     "model": "planner.meal",
     "pk": 2,
     "fields": {
-        "name": "Pizza"
+        "name": "Pizza",
+        "healthiness": 1
     }
 },
 {
     "model": "planner.meal",
     "pk": 3,
     "fields": {
-        "name": "Καρπούζι"
+        "name": "Καρπούζι",
+        "healthiness": 5
     }
 },
 {
     "model": "planner.meal",
     "pk": 4,
     "fields": {
-        "name": "Αρακάς και κοτόπουλο"
+        "name": "Αρακάς και κοτόπουλο",
+        "healthiness": 5
     }
 },
 {
     "model": "planner.meal",
     "pk": 6,
     "fields": {
-        "name": "Κοτόπουλο και σαλάτα"
+        "name": "Κοτόπουλο και σαλάτα",
+        "healthiness": 5
     }
 },
 {
     "model": "planner.meal",
     "pk": 7,
     "fields": {
-        "name": "Παγωτό σε χωνάκια"
+        "name": "Παγωτό σε χωνάκια",
+        "healthiness": 1
     }
 },
 {
     "model": "planner.meal",
     "pk": 8,
     "fields": {
-        "name": "Γιαούρτι"
+        "name": "Γιαούρτι",
+        "healthiness": 5
     }
 },
 {
     "model": "planner.meal",
     "pk": 9,
     "fields": {
-        "name": "Χταπόδι και σαλάτα"
+        "name": "Χταπόδι και σαλάτα",
+        "healthiness": 5
     }
 },
 {
     "model": "planner.meal",
     "pk": 10,
     "fields": {
-        "name": "Πατατάκια"
+        "name": "Πατατάκια",
+        "healthiness": 2
     }
 },
 {
     "model": "planner.meal",
     "pk": 11,
     "fields": {
-        "name": "Μπιφτέκια και σαλάτα"
+        "name": "Μπιφτέκια και σαλάτα",
+        "healthiness": 4
     }
 },
 {
     "model": "planner.meal",
     "pk": 12,
     "fields": {
-        "name": "Nutella sticks"
+        "name": "Nutella sticks",
+        "healthiness": 1
     }
 },
 {
     "model": "planner.meal",
     "pk": 13,
     "fields": {
-        "name": "Τορτελίνια με λουκάνικο"
+        "name": "Τορτελίνια με λουκάνικο",
+        "healthiness": 3
     }
 },
 {
     "model": "planner.meal",
     "pk": 14,
     "fields": {
-        "name": "Τοστ παριζάκι και πατατάκια"
+        "name": "Τοστ παριζάκι και πατατάκια",
+        "healthiness": 3
     }
 },
 {
     "model": "planner.meal",
     "pk": 15,
     "fields": {
-        "name": "Τοστ παριζάκι"
+        "name": "Τοστ παριζάκι",
+        "healthiness": 4
     }
 },
 {
     "model": "planner.meal",
     "pk": 16,
     "fields": {
-        "name": "Burgers"
+        "name": "Burgers",
+        "healthiness": 2
     }
 },
 {
     "model": "planner.meal",
     "pk": 17,
     "fields": {
-        "name": "Πεπόνι"
+        "name": "Πεπόνι",
+        "healthiness": 5
     }
 },
 {
     "model": "planner.meal",
     "pk": 18,
     "fields": {
-        "name": "Crackers"
+        "name": "Crackers",
+        "healthiness": 3
     }
 },
 {
     "model": "planner.meal",
     "pk": 19,
     "fields": {
-        "name": "Βίδες"
+        "name": "Βίδες",
+        "healthiness": 3
     }
 },
 {
     "model": "planner.meal",
     "pk": 20,
     "fields": {
-        "name": "Σπανακόπιτα"
+        "name": "Σπανακόπιτα",
+        "healthiness": 4
     }
 },
 {
     "model": "planner.meal",
     "pk": 22,
     "fields": {
-        "name": "Pop Corn"
+        "name": "Pop Corn",
+        "healthiness": 3
     }
 },
 {
     "model": "planner.meal",
     "pk": 23,
     "fields": {
-        "name": "Εκτός σπιτιού"
+        "name": "Εκτός σπιτιού",
+        "healthiness": 1
     }
 },
 {
     "model": "planner.meal",
     "pk": 24,
     "fields": {
-        "name": "Μακαρόνια με κιμά"
+        "name": "Μακαρόνια με κιμά",
+        "healthiness": 4
     }
 },
 {
     "model": "planner.meal",
     "pk": 27,
     "fields": {
-        "name": "Falafel"
+        "name": "Falafel",
+        "healthiness": 4
     }
 },
 {
     "model": "planner.meal",
     "pk": 28,
     "fields": {
-        "name": "Κριθαράκι με κοτόπουλο"
+        "name": "Κριθαράκι με κοτόπουλο",
+        "healthiness": 5
     }
 },
 {
     "model": "planner.meal",
     "pk": 29,
     "fields": {
-        "name": "Μπανάνα"
+        "name": "Μπανάνα",
+        "healthiness": 5
     }
 },
 {
     "model": "planner.meal",
     "pk": 30,
     "fields": {
-        "name": "Μπριζόλα και σαλάτα"
+        "name": "Μπριζόλα και σαλάτα",
+        "healthiness": 4
     }
 },
 {
     "model": "planner.meal",
     "pk": 31,
     "fields": {
-        "name": "Πίτες με κεμπάπ"
+        "name": "Πίτες με κεμπάπ",
+        "healthiness": 3
     }
 },
 {
     "model": "planner.meal",
     "pk": 32,
     "fields": {
-        "name": "Σνιτσελ και σαλάτα"
+        "name": "Σνιτσελ και σαλάτα",
+        "healthiness": 4
     }
 },
 {
