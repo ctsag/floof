@@ -5,23 +5,36 @@
         <h1>Welcome to <em>Floof</em>, your meal planner!</h1>
 
         <h2>Meals</h2>
-        <ul>
+        <table>
+                <tr>
+                        <th>Name</th>
+                        <th>Ingredients</th>
+                        <th>Cost</th>
+                </tr>
         {% for meal in meals %}
-            <li>{{meal}}</li>
+                <tr>
+                        <td>{{meal.name}}</td>
+                        <td>{{meal.all_ingredients}}</td>
+                        <td>{{meal.cost}}</td>
+                </tr>
         {% endfor %}
-        </ul>
-
-        <h2>Meal ingredients</h2>
-        <ul>
-        {% for meal_ingredient in meal_ingredients %}
-            <li>{{meal_ingredient}}</li>
-        {% endfor %}
-        </ul>
+        </table>
 
         <h2>Ingredients</h2>
-        <ul>
+        <table>
+                <tr>
+                        <th>Name</th>
+                        <th>Units</th>
+                        <th>Price</th>
+                        <th>URL</th>
+                </tr>
         {% for ingredient in ingredients %}
-            <li><a href="{{ingredient.url}}">{{ingredient}}</a></li>
+                <tr>
+                        <td>{{ingredient.name}}</td>
+                        <td>{{ingredient.units}}</td>
+                        <td>{{ingredient.price}}</td>
+                        <td><a href="{{ingredient.url}}">{{ingredient.url}}</a></td>
+                </tr>
         {% endfor %}
-        </ul>
+        </table>
 {% endblock %}

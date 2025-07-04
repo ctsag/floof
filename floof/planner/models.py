@@ -27,11 +27,13 @@ class Meal(models.Model):
     objects = models.Manager()
 
     def cost(self):
-        return sum(item.cost() for item in self.mealingredient_set.all())
+        return round(sum(item.cost() for item in self.mealingredient_set.all()), 2)
+
+    def all_ingredients(self):
+        return ', '.join(str(v) for v in self.mealingredient_set.all())
 
     def __str__(self):
-        all_ingredients = ', '.join(str(v) for v in self.mealingredient_set.all())
-        return f'{self.name} : {all_ingredients} = {self.cost():.2f}€'
+        return f'{self.name} : {self.all_ingredients()} = {self.cost():.2f}€'
 
 class MealIngredient(models.Model):
     meal = models.ForeignKey(Meal, on_delete=models.CASCADE)
