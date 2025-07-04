@@ -10,12 +10,14 @@
                         <th>Name</th>
                         <th>Ingredients</th>
                         <th>Cost</th>
+                        <th>Healthiness</th>
                 </tr>
         {% for meal in meals %}
                 <tr>
                         <td>{{meal.name}}</td>
                         <td>{{meal.all_ingredients}}</td>
                         <td>{{meal.cost}}</td>
+                        <td>{{meal.healthiness}}/5</td>
                 </tr>
         {% endfor %}
         </table>

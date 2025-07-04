@@ -1,3 +1,4 @@
+from django.core.validators import MaxValueValidator, MinValueValidator
 from django.db import models
 
 class Ingredient(models.Model):
@@ -22,6 +23,10 @@ class Meal(models.Model):
         ordering = ['name']
 
     name = models.CharField(max_length=128)
+    healthiness = models.IntegerField(
+        default=1,
+        validators=[MinValueValidator(1), MaxValueValidator(5)]
+    )
     ingredients = models.ManyToManyField(Ingredient, through='MealIngredient')
 
     objects = models.Manager()
