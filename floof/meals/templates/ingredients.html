@@ -15,7 +15,7 @@
                 </tr>
         {% for ingredient in ingredients %}
                 <tr>
-                        <td>{{ingredient.name}}</td>
+                        <td><a href="{% url 'ingredient_view' id=ingredient.id %}">{{ingredient.name}}</a></td>
                         <td>{{ingredient.servings}}</td>
                         <td>{{ingredient.price}}</td>
                         <td>
