@@ -2,6 +2,7 @@
 {% load static %}
 {% block title %}Welcome!{% endblock %}
 {% block content %}
+        <a href="{% url 'index' %}">Back home</a>
         <h2>Ingredients</h2>
         <table>
                 <tr>
@@ -9,6 +10,7 @@
                         <th>Servings</th>
                         <th>Price</th>
                         <th>URL</th>
+                        <th>Delete</th>
                 </tr>
         {% for ingredient in ingredients %}
                 <tr>
@@ -19,8 +21,16 @@
                         {% if ingredient.url %}
                                 <a href="{{ingredient.url}}">External link</a>
                         {% else %}
-                                -
+                                No external link
                         {% endif %}
+                        </td>
+                        <td>
+                                <a
+                                        href="{% url 'ingredients_delete' id=ingredient.id %}"
+                                        onclick="return confirm('Are you sure?')"
+                                >
+                                        Delete
+                                </a>
                         </td>
                 </tr>
         {% endfor %}
