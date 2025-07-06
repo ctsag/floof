@@ -1,5 +1,6 @@
-from django.shortcuts import render, redirect
-from meals.models import Meal, Ingredient
+from django.shortcuts import get_object_or_404, render, redirect
+from meals.forms import IngredientForm, MealForm
+from meals.models import Ingredient, Meal
 
 def meal_index(request):
     return render(
@@ -19,12 +20,36 @@ def ingredient_index(request):
         }
     )
 
+def meal_edit(request, id):
+    meal = get_object_or_404(Meal, pk=id)
+    if request.method == 'POST':
+        form = MealForm(request.POST, instance=meal)
+        if form.is_valid():
+            form.save()
+            return redirect('meals')
+    else:
+        form = MealForm(instance=meal)
+
+    return render(request, 'meal_edit.html', {'form': form})
+
+def ingredient_edit(request, id):
+    ingredient = get_object_or_404(Ingredient, pk=id)
+    if request.method == 'POST':
+        form = IngredientForm(request.POST, instance=ingredient)
+        if form.is_valid():
+            form.save()
+            return redirect('ingredients')
+    else:
+        form = IngredientForm(instance=ingredient)
+
+    return render(request, 'ingredient_edit.html', {'form': form})
+
 def meal_delete(request, id):
-    meal_id = id
-    Meal.objects.get(id=meal_id).delete()
+    meal = get_object_or_404(Meal, pk=id)
+    meal.delete()
     return redirect(meal_index)
 
 def ingredient_delete(request, id):
-    ingredient_id = id
-    Ingredient.objects.get(id=ingredient_id).delete()
+    ingredient = get_object_or_404(Ingredient, pk=id)
+    ingredient.delete()
     return redirect(ingredient_index)

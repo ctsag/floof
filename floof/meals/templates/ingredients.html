@@ -10,6 +10,7 @@
                         <th>Servings</th>
                         <th>Price</th>
                         <th>URL</th>
+                        <th>Edit</th>
                         <th>Delete</th>
                 </tr>
         {% for ingredient in ingredients %}
@@ -24,9 +25,10 @@
                                 No external link
                         {% endif %}
                         </td>
+                        <td><a href="{% url 'ingredient_edit' id=ingredient.id %}">Edit</a></td>
                         <td>
                                 <a
-                                        href="{% url 'ingredients_delete' id=ingredient.id %}"
+                                        href="{% url 'ingredient_delete' id=ingredient.id %}"
                                         onclick="return confirm('Are you sure?')"
                                 >
                                         Delete

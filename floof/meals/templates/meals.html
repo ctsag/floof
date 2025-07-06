@@ -10,6 +10,7 @@
                         <th>Ingredients</th>
                         <th>Cost</th>
                         <th>Healthiness</th>
+                        <th>Edit</th>
                         <th>Delete</th>
                 </tr>
         {% for meal in meals %}
@@ -18,9 +19,10 @@
                         <td>{{meal.all_ingredients}}</td>
                         <td>{{meal.cost}}</td>
                         <td>{{meal.healthiness}}/5</td>
+                        <td><a href="{% url 'meal_edit' id=meal.id %}">Edit</a></td>
                         <td>
                                 <a
-                                        href="{% url 'meals_delete' id=meal.id %}"
+                                        href="{% url 'meal_delete' id=meal.id %}"
                                         onclick="return confirm('Are you sure?')"
                                 >
                                         Delete
