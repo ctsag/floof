@@ -4,7 +4,7 @@
     "pk": 1,
     "fields": {
         "name": "Καφές",
-        "units": 10,
+        "servings": 10,
         "price": "3.16",
         "url": "https://www.skroutz.gr/s/43959795/Starbucks-Espresso-Colombia-Kapsoules-Symvates-Me-Michanes-Nespresso-53gr.html?product_id=168752211"
     }
@@ -14,8 +14,8 @@
     "pk": 2,
     "fields": {
         "name": "Halls",
-        "units": 8,
-        "price": "0.97",
+        "servings": 8,
+        "price": "0.95",
         "url": "https://www.skroutz.gr/s/43960569/Halls-Original-Xoris-Zachari-Karamela-Kerasi-32gr.html?product_id=168756036"
     }
 },
@@ -24,7 +24,7 @@
     "pk": 3,
     "fields": {
         "name": "Pizza",
-        "units": 3,
+        "servings": 3,
         "price": "9.93",
         "url": "https://www.skroutz.gr/s/44020147/Yfantis-Pitsa-Rock-N-Roll-1380gr.html?product_id=168745859"
     }
@@ -34,7 +34,7 @@
     "pk": 4,
     "fields": {
         "name": "Bacon",
-        "units": 6,
+        "servings": 6,
         "price": "2.40",
         "url": "https://www.skroutz.gr/s/44020266/Yfantis-Mpeikon-Kapnisto-100gr.html?product_id=168750264"
     }
@@ -44,7 +44,7 @@
     "pk": 5,
     "fields": {
         "name": "Burger",
-        "units": 6,
+        "servings": 6,
         "price": "6.33",
         "url": "https://www.skroutz.gr/s/44025294/Just-Hot-Mpiftekia-PSimena-Katepsygmena-480gr.html?product_id=168751068"
     }
@@ -54,7 +54,7 @@
     "pk": 6,
     "fields": {
         "name": "Cheddar Sauce",
-        "units": 10,
+        "servings": 10,
         "price": "2.85",
         "url": "https://www.skroutz.gr/s/55588438/Condito-Cheddar-Sauce-CHoris-Glouteni-330gr.html?product_id=216504541"
     }
@@ -64,7 +64,7 @@
     "pk": 7,
     "fields": {
         "name": "Crackers",
-        "units": 3,
+        "servings": 3,
         "price": "1.15",
         "url": "https://www.skroutz.gr/s/43960036/Papadopoulou-Pick-Crackers-Bacon-100gr.html?product_id=168753091"
     }
@@ -74,7 +74,7 @@
     "pk": 8,
     "fields": {
         "name": "Gouda",
-        "units": 10,
+        "servings": 10,
         "price": "2.50",
         "url": "https://www.skroutz.gr/s/59302741/NOUNOU-Gouda-Se-Fetes-200gr.html?product_id=168753206"
     }
@@ -84,7 +84,7 @@
     "pk": 9,
     "fields": {
         "name": "Ketchup",
-        "units": 10,
+        "servings": 10,
         "price": "2.86",
         "url": "https://www.skroutz.gr/s/44013904/Heinz-Ketsap-Top-Down-460gr.html?product_id=168753971"
     }
@@ -94,7 +94,7 @@
     "pk": 10,
     "fields": {
         "name": "Nutella & Go",
-        "units": 1,
+        "servings": 1,
         "price": "1.99",
         "url": "https://www.skroutz.gr/s/43960186/Ferrero-Nutella-Go-52gr.html?product_id=168753424"
     }
@@ -104,7 +104,7 @@
     "pk": 11,
     "fields": {
         "name": "Pop Corn",
-        "units": 6,
+        "servings": 6,
         "price": "3.10",
         "url": "https://www.skroutz.gr/s/45222306/My-Popcorn-Me-Elaiolado-THalassino-Alati-185gr.html?product_id=168753099"
     }
@@ -114,7 +114,7 @@
     "pk": 12,
     "fields": {
         "name": "Siracha Mayo",
-        "units": 6,
+        "servings": 6,
         "price": "4.19",
         "url": "https://www.skroutz.gr/s/45230945/Go-Tan-Sauce-Spiracha-Payo-215ml.html?product_id=168754668"
     }
@@ -124,7 +124,7 @@
     "pk": 13,
     "fields": {
         "name": "Αγγούρι",
-        "units": 1,
+        "servings": 1,
         "price": "0.20",
         "url": "https://www.skroutz.gr/s/44041529/Agourakia-Ellinika-1-temachio-180gr.html?product_id=168742739"
     }
@@ -134,7 +134,7 @@
     "pk": 14,
     "fields": {
         "name": "Αυγά",
-        "units": 6,
+        "servings": 6,
         "price": "2.55",
         "url": "https://www.skroutz.gr/s/44035939/Ipeirotika-Ayga-6ada-63-73G-Large.html?product_id=168744753"
     }
@@ -144,7 +144,7 @@
     "pk": 15,
     "fields": {
         "name": "Γιαούρτι",
-        "units": 3,
+        "servings": 3,
         "price": "3.83",
         "url": "https://www.skroutz.gr/s/44016788/FAGE-Total-Stragisto-Giaourti-5-Lipara-3x200gr.html?product_id=168752911"
     }
@@ -154,7 +154,7 @@
     "pk": 16,
     "fields": {
         "name": "Καρπούζι",
-        "units": 2,
+        "servings": 2,
         "price": "3.03",
         "url": "https://www.skroutz.gr/s/44113375/Karpouzi-Atomiko-Egchorio-1-temachio-3-4kg.html?product_id=168742761"
     }
@@ -164,7 +164,7 @@
     "pk": 17,
     "fields": {
         "name": "Πιτες για σουβλάκια",
-        "units": 10,
+        "servings": 10,
         "price": "1.61",
         "url": "https://www.skroutz.gr/s/43958972/Karamolegos-Pites-Axiagapites-Megales-10Temachia-820gr.html?product_id=168752689"
     }
@@ -174,7 +174,7 @@
     "pk": 18,
     "fields": {
         "name": "Τομάτα",
-        "units": 6,
+        "servings": 6,
         "price": "2.07",
         "url": "https://www.skroutz.gr/s/44038717/Tomata-Dramas-Petrousa-Poiotita-A-1-temachio-230gr.html?product_id=168745968"
     }
@@ -184,7 +184,7 @@
     "pk": 19,
     "fields": {
         "name": "Φέτα",
-        "units": 6,
+        "servings": 6,
         "price": "5.54",
         "url": "https://www.skroutz.gr/s/44020113/%CE%99peiros-Feta-P-O-P-400gr.html?product_id=168749641"
     }
@@ -194,7 +194,7 @@
     "pk": 20,
     "fields": {
         "name": "Κοτόπουλο",
-        "units": 2,
+        "servings": 2,
         "price": "10.62",
         "url": "https://www.skroutz.gr/s/45138096/Elaiopoulaki-Fileto-Stithos-Kotopoulo-600gr.html?product_id=168751498"
     }
@@ -204,7 +204,7 @@
     "pk": 21,
     "fields": {
         "name": "Σάλτσα για τηγανιά",
-        "units": 2,
+        "servings": 2,
         "price": "3.44",
         "url": "https://www.skroutz.gr/s/45403246/Cook-At-Home-Saltsa-Gia-Tigania-Krasato-Kotopoulo-265gr.html?product_id=169023902"
     }
@@ -214,7 +214,7 @@
     "pk": 22,
     "fields": {
         "name": "Αρακάς",
-        "units": 6,
+        "servings": 6,
         "price": "3.29",
         "url": "https://www.skroutz.gr/s/44034804/Mparmpa-Stathis-Arakas-Katepsygmenos-420gr.html?product_id=168750919"
     }
@@ -224,7 +224,7 @@
     "pk": 23,
     "fields": {
         "name": "Ψωμί για τοστ",
-        "units": 20,
+        "servings": 20,
         "price": "1.93",
         "url": "https://www.skroutz.gr/s/43961471/Karamolegos-PSomi-Tost-PSicha-Starenio-480gr.html?product_id=168752707"
     }
@@ -234,7 +234,7 @@
     "pk": 24,
     "fields": {
         "name": "Παριζάκι",
-        "units": 8,
+        "servings": 8,
         "price": "4.71",
         "url": "https://www.skroutz.gr/s/52562181/Yfantis-Parizaki-CHoris-Glouteni-500gr.html?product_id=168744738"
     }
@@ -244,7 +244,7 @@
     "pk": 25,
     "fields": {
         "name": "Μουστάρδα",
-        "units": 20,
+        "servings": 20,
         "price": "3.97",
         "url": "https://www.skroutz.gr/s/43959086/French-s-Moustarda-397gr.html?product_id=168752331"
     }
@@ -254,7 +254,7 @@
     "pk": 26,
     "fields": {
         "name": "Ελιές",
-        "units": 5,
+        "servings": 5,
         "price": "2.28",
         "url": null
     }
@@ -264,7 +264,7 @@
     "pk": 27,
     "fields": {
         "name": "Παγωτό οικογενειακό",
-        "units": 10,
+        "servings": 10,
         "price": "14.90",
         "url": "https://www.skroutz.gr/s/60818056/evga-pagoto-fystiki-kakao-mpanana-1350gr-e.html?product_id=255814456"
     }
@@ -274,7 +274,7 @@
     "pk": 28,
     "fields": {
         "name": "Χωνάκια",
-        "units": 9,
+        "servings": 9,
         "price": "2.69",
         "url": "https://www.skroutz.gr/s/44048019/Gelatomania-Konoi-Pagotou-9Temachia.html?product_id=200995633"
     }
@@ -284,7 +284,7 @@
     "pk": 29,
     "fields": {
         "name": "Φασόλια",
-        "units": 2,
+        "servings": 2,
         "price": "1.49",
         "url": "https://www.skroutz.gr/s/43958940/Kyknos-Fasolia-Kokkina-400gr.html?product_id=168743085"
     }
@@ -294,7 +294,7 @@
     "pk": 30,
     "fields": {
         "name": "Λουκάνικο",
-        "units": 4,
+        "servings": 4,
         "price": "4.71",
         "url": "https://www.skroutz.gr/s/44017847/Creta-Farms-Loukanika-CHoriatika-Pikantika-400gr.html?product_id=169553025"
     }
@@ -304,7 +304,7 @@
     "pk": 31,
     "fields": {
         "name": "Μέλι",
-        "units": 20,
+        "servings": 20,
         "price": "8.96",
         "url": "https://www.skroutz.gr/s/43961875/Attiki-Meli-Melissaki-470gr.html?product_id=168754549"
     }
@@ -314,7 +314,7 @@
     "pk": 32,
     "fields": {
         "name": "Χταπόδι",
-        "units": 1,
+        "servings": 1,
         "price": "3.99",
         "url": null
     }
@@ -324,7 +324,7 @@
     "pk": 33,
     "fields": {
         "name": "Πατατάκια",
-        "units": 3,
+        "servings": 3,
         "price": "2.53",
         "url": "https://www.skroutz.gr/s/43961042/Jumbo-Chips-Alati-Kymatista-280gr.html?product_id=168745763"
     }
@@ -334,7 +334,7 @@
     "pk": 34,
     "fields": {
         "name": "Λεμόνι",
-        "units": 6,
+        "servings": 6,
         "price": "2.49",
         "url": "https://www.skroutz.gr/s/44060625/Lemonia-Eisagogis-Poiotita-A-6-temachio-1kg.html?product_id=168753723"
     }
@@ -344,7 +344,7 @@
     "pk": 35,
     "fields": {
         "name": "Μπιφτέκια",
-        "units": 2,
+        "servings": 2,
         "price": "6.59",
         "url": "https://www.skroutz.gr/s/45472889/Farma-Elassonas-Mpifteki-Paradosiako-Nopo-Elliniko-600gr.html?product_id=168751522"
     }
@@ -354,7 +354,7 @@
     "pk": 36,
     "fields": {
         "name": "Τορτελίνια",
-        "units": 2,
+        "servings": 2,
         "price": "3.44",
         "url": "https://www.skroutz.gr/s/43959042/Barilla-Zymarika-Tortellini-Me-Tyria-250gr.html?product_id=168754175"
     }
@@ -364,7 +364,7 @@
     "pk": 37,
     "fields": {
         "name": "Pesto Mediterraneo",
-        "units": 1,
+        "servings": 1,
         "price": "2.69",
         "url": "https://www.skroutz.gr/s/43959528/Primo-Gusto-Saltsa-Pesto-Mediterraneo-190gr.html?product_id=168743719"
     }
@@ -374,7 +374,7 @@
     "pk": 38,
     "fields": {
         "name": "Τριμμένο τυρί",
-        "units": 4,
+        "servings": 4,
         "price": "2.95",
         "url": "https://www.skroutz.gr/s/44019200/Parmissimo-Parmigiano-Reggiano-Italias-Trimmeni-90gr.html?product_id=168751491"
     }
@@ -384,7 +384,7 @@
     "pk": 39,
     "fields": {
         "name": "Γραβιέρα σε τριγωνάκια",
-        "units": 16,
+        "servings": 16,
         "price": "2.92",
         "url": "https://www.skroutz.gr/s/44020115/%CE%99peiros-Trigonakia-Me-Graviera-280gr.html?product_id=168753198"
     }
@@ -394,7 +394,7 @@
     "pk": 40,
     "fields": {
         "name": "Ψωμί για burger",
-        "units": 6,
+        "servings": 6,
         "price": "2.32",
         "url": "https://www.skroutz.gr/s/43959138/Karamolegos-PSomakia-Burgers-480gr-6tem.html?product_id=168755158"
     }
@@ -404,7 +404,7 @@
     "pk": 41,
     "fields": {
         "name": "Πεπόνι",
-        "units": 2,
+        "servings": 2,
         "price": "2.09",
         "url": "https://www.skroutz.gr/s/44041355/Peponi-Egchorio-1-temachio-1-5kg.html?product_id=168752075"
     }
@@ -414,7 +414,7 @@
     "pk": 42,
     "fields": {
         "name": "Βίδες",
-        "units": 2,
+        "servings": 2,
         "price": "1.00",
         "url": "https://www.skroutz.gr/s/43959806/Melissa-Strifto-500gr.html?product_id=168746456"
     }
@@ -424,7 +424,7 @@
     "pk": 43,
     "fields": {
         "name": "Pesto",
-        "units": 2,
+        "servings": 2,
         "price": "5.56",
         "url": "https://www.skroutz.gr/s/59466547/Barilla-Pesto-Saltsa-Genovese-190gr-2tem.html?product_id=247177355"
     }
@@ -434,7 +434,7 @@
     "pk": 44,
     "fields": {
         "name": "Σπανακόπιτα",
-        "units": 2,
+        "servings": 2,
         "price": "5.70",
         "url": "https://www.skroutz.gr/s/44020629/CHavelas-Zagorisia-Tylichti-Spanakopita-650gr.html?product_id=168753520"
     }
@@ -444,7 +444,7 @@
     "pk": 45,
     "fields": {
         "name": "Μπριζόλα χοιρινή",
-        "units": 2,
+        "servings": 2,
         "price": "5.89",
         "url": "https://www.skroutz.gr/s/48098235/Farma-Elassonas-BBQ-Steak-Nopo-Elliniko-400gr.html?product_id=177901945"
     }
@@ -454,7 +454,7 @@
     "pk": 46,
     "fields": {
         "name": "Μακαρόνια",
-        "units": 4,
+        "servings": 4,
         "price": "0.70",
         "url": "https://www.skroutz.gr/s/43958713/Misko-Spagetini-No-10-500gr.html?product_id=168751608"
     }
@@ -464,7 +464,7 @@
     "pk": 47,
     "fields": {
         "name": "Κιμάς",
-        "units": 2,
+        "servings": 2,
         "price": "4.45",
         "url": "https://www.skroutz.gr/s/45373638/Farma-Elassonas-Kimas-Anameiktos-Nopos-400gr.html?product_id=168753259"
     }
@@ -474,7 +474,7 @@
     "pk": 48,
     "fields": {
         "name": "Falafel",
-        "units": 20,
+        "servings": 20,
         "price": "4.37",
         "url": "https://www.skroutz.gr/s/44035875/Nikolopoulou-Falafel-Katepsygmena-500gr.html?product_id=168751102"
     }
@@ -484,7 +484,7 @@
     "pk": 49,
     "fields": {
         "name": "Μαρούλι",
-        "units": 5,
+        "servings": 5,
         "price": "1.19",
         "url": "https://www.skroutz.gr/s/44034920/My-Fresco-Salata-Fantasia-Marouli-Eskarol-Galliki-Salata-100gr.html?product_id=172944591"
     }
@@ -494,7 +494,7 @@
     "pk": 50,
     "fields": {
         "name": "Hummus",
-        "units": 6,
+        "servings": 6,
         "price": "3.40",
         "url": "https://www.skroutz.gr/s/44035303/Yfantis-CHoumous-Lemoni-400gr.html?product_id=168750808"
     }
@@ -504,7 +504,7 @@
     "pk": 51,
     "fields": {
         "name": "Κριθαράκι",
-        "units": 2,
+        "servings": 2,
         "price": "0.90",
         "url": "https://www.skroutz.gr/s/43959293/Misko-Kritharaki-Metrio-500gr.html?product_id=168754166"
     }
@@ -514,7 +514,7 @@
     "pk": 52,
     "fields": {
         "name": "Μανιτάρια",
-        "units": 3,
+        "servings": 3,
         "price": "1.86",
         "url": "https://www.skroutz.gr/s/43959043/Holco-Manitaria-Temachismena-200gr.html?product_id=168746104"
     }
@@ -524,7 +524,7 @@
     "pk": 53,
     "fields": {
         "name": "Κρεμμύδι",
-        "units": 1,
+        "servings": 1,
         "price": "0.17",
         "url": "https://www.skroutz.gr/s/44043411/Kremmydia-Kokkina-Xera-Metria-Ellinika-Poiotita-A-1-temachio-180gr.html?product_id=168752097"
     }
@@ -534,7 +534,7 @@
     "pk": 54,
     "fields": {
         "name": "Μπανάνα",
-        "units": 5,
+        "servings": 5,
         "price": "1.85",
         "url": "https://www.skroutz.gr/s/57445792/Mpananes-Dole-Eisagogis-5-temachia-1kg.html?product_id=168752103"
     }
@@ -544,7 +544,7 @@
     "pk": 55,
     "fields": {
         "name": "Κεμπάπ",
-        "units": 4,
+        "servings": 4,
         "price": "5.57",
         "url": "https://www.skroutz.gr/s/44010726/Meatka-Kempap-Politiko-E-E-Diskaki-500gr.html?product_id=168742122"
     }
@@ -554,7 +554,7 @@
     "pk": 56,
     "fields": {
         "name": "Τζατζίκι",
-        "units": 6,
+        "servings": 6,
         "price": "3.10",
         "url": "https://www.skroutz.gr/s/44019910/Yfantis-Tzatziki-400gr.html?product_id=168752608"
     }
@@ -564,7 +564,7 @@
     "pk": 57,
     "fields": {
         "name": "Σνίτσελ",
-        "units": 4,
+        "servings": 4,
         "price": "6.70",
         "url": "https://www.skroutz.gr/s/44022830/Mimikos-Pikantika-Snitsel-Kotopoulou-470gr-0-50euro.html?product_id=168750061"
     }
