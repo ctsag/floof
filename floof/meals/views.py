@@ -20,6 +20,26 @@ def ingredient_index(request):
         }
     )
 
+def meal_view(request, id):
+    meal = get_object_or_404(Meal, pk=id)
+    return render(
+        request,
+        'meal_view.html',
+        {
+            'meal': meal
+        }
+    )
+
+def ingredient_view(request, id):
+    ingredient = get_object_or_404(Ingredient, pk=id)
+    return render(
+        request,
+        'ingredient_view.html',
+        {
+            'ingredient': ingredient
+        }
+    )
+
 def meal_add(request):
     if request.method == 'POST':
         form = MealForm(request.POST)
