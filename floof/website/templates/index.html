@@ -3,40 +3,8 @@
 {% block title %}Welcome!{% endblock %}
 {% block content %}
         <h1>Welcome to <em>Floof</em>, your meal planner!</h1>
-
-        <h2>Meals</h2>
-        <table>
-                <tr>
-                        <th>Name</th>
-                        <th>Ingredients</th>
-                        <th>Cost</th>
-                        <th>Healthiness</th>
-                </tr>
-        {% for meal in meals %}
-                <tr>
-                        <td>{{meal.name}}</td>
-                        <td>{{meal.all_ingredients}}</td>
-                        <td>{{meal.cost}}</td>
-                        <td>{{meal.healthiness}}/5</td>
-                </tr>
-        {% endfor %}
-        </table>
-
-        <h2>Ingredients</h2>
-        <table>
-                <tr>
-                        <th>Name</th>
-                        <th>Units</th>
-                        <th>Price</th>
-                        <th>URL</th>
-                </tr>
-        {% for ingredient in ingredients %}
-                <tr>
-                        <td>{{ingredient.name}}</td>
-                        <td>{{ingredient.units}}</td>
-                        <td>{{ingredient.price}}</td>
-                        <td><a href="{{ingredient.url}}">{{ingredient.url}}</a></td>
-                </tr>
-        {% endfor %}
-        </table>
+        <p>There are currently
+                <a href="{% url 'meals' %}">{{meal_count}} meals</a> and
+                <a href="{% url 'ingredients' %}">{{ingredient_count}} ingredients</a>
+        </p>
 {% endblock %}
