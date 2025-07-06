@@ -20,6 +20,28 @@ def ingredient_index(request):
         }
     )
 
+def meal_add(request):
+    if request.method == 'POST':
+        form = MealForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return redirect('meals')
+    else:
+        form = MealForm()
+
+    return render(request, 'meal_add.html', {'form': form})
+
+def ingredient_add(request):
+    if request.method == 'POST':
+        form = IngredientForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return redirect('ingredients')
+    else:
+        form = IngredientForm()
+
+    return render(request, 'ingredient_add.html', {'form': form})
+
 def meal_edit(request, id):
     meal = get_object_or_404(Meal, pk=id)
     if request.method == 'POST':
