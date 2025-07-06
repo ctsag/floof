@@ -1,4 +1,4 @@
-from django.forms import ModelForm, TextInput, TimeInput
+from django.forms import ModelForm, NumberInput, TextInput
 from meals.models import Ingredient, Meal
 
 
@@ -8,7 +8,7 @@ class MealForm(ModelForm):
         fields = ['name', 'healthiness']
         widgets = {
             'name': TextInput(attrs={'type': 'text'}),
-            'healthiness': TimeInput(attrs={'type': 'number', 'min': 1, 'max': 5})
+            'healthiness': NumberInput(attrs={'type': 'number', 'step': 1, 'min': 1, 'max': 5})
         }
 
 
@@ -18,7 +18,7 @@ class IngredientForm(ModelForm):
         fields = '__all__'
         widgets = {
             'name': TextInput(attrs={'type': 'text'}),
-            'servings': TimeInput(attrs={'type': 'number', 'value': 1}),
-            'price': TextInput(attrs={'type': 'number', 'value': 0}),
+            'servings': NumberInput(attrs={'type': 'number', 'step': 1}),
+            'price': NumberInput(attrs={'type': 'number', 'step': 0.01}),
             'url': TextInput(attrs={'type': 'url'})
         }

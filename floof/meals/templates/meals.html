@@ -3,7 +3,7 @@
 {% block title %}Welcome!{% endblock %}
 {% block content %}
         <a href="{% url 'index' %}">Back home</a>
-        <h2>Meals</h2>
+        <h2>Meals <a href="{% url 'meal_add' %}">(Add)</a></h2>
         <table>
                 <tr>
                         <th>Name</th>
