@@ -6,14 +6,14 @@
         <table>
                 <tr>
                         <th>Name</th>
-                        <th>Units</th>
+                        <th>Servings</th>
                         <th>Price</th>
                         <th>URL</th>
                 </tr>
         {% for ingredient in ingredients %}
                 <tr>
                         <td>{{ingredient.name}}</td>
-                        <td>{{ingredient.units}}</td>
+                        <td>{{ingredient.servings}}</td>
                         <td>{{ingredient.price}}</td>
                         <td>
                         {% if ingredient.url %}

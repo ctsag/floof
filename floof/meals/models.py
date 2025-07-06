@@ -21,7 +21,7 @@ class Ingredient(models.Model):
         ordering = ['name']
 
     name = models.CharField(max_length=64)
-    units = models.IntegerField(default=1)
+    servings = models.IntegerField(default=1)
     price = models.DecimalField(max_digits=4, decimal_places=2, default=0)
     url = models.URLField(blank=True, null=True)
 
@@ -39,7 +39,7 @@ class Ingredient(models.Model):
         super().save(*args, **kwargs)
 
     def unit_cost(self):
-        return self.price / self.units
+        return self.price / self.servings
 
     def __str__(self):
         return f'{self.name}'
