@@ -1,6 +1,7 @@
 from django.core.validators import MaxValueValidator, MinValueValidator
 from django.db import models
 
+
 class PriceHistory(models.Model):
     class Meta:
         verbose_name_plural = 'price history'
@@ -13,6 +14,7 @@ class PriceHistory(models.Model):
     def __str__(self):
         return f"""{self.ingredient} from {self.prev_price} to {self.new_price}
         at {self.changed_at.strftime('%Y-%m-%d %H:%M:%S')}"""
+
 
 class Ingredient(models.Model):
     class Meta:
@@ -42,6 +44,7 @@ class Ingredient(models.Model):
     def __str__(self):
         return f'{self.name}'
 
+
 class Meal(models.Model):
     class Meta:
         ordering = ['name']
@@ -63,6 +66,7 @@ class Meal(models.Model):
 
     def __str__(self):
         return f'{self.name} : {self.all_ingredients()} = {self.cost():.2f}€'
+
 
 class MealIngredient(models.Model):
     meal = models.ForeignKey(Meal, on_delete=models.CASCADE)

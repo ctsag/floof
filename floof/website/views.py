@@ -7,7 +7,7 @@ def index(request):
         request,
         'index.html',
         {
-            'meals': Meal.objects.all(),
-            'ingredients': Ingredient.objects.all()
+            'meal_count': Meal.objects.count(),
+            'ingredient_count': Ingredient.objects.count()
         }
     )

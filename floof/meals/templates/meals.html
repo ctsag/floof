@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Welcome!{% endblock %}
+{% block content %}
+        <h2>Meals</h2>
+        <table>
+                <tr>
+                        <th>Name</th>
+                        <th>Ingredients</th>
+                        <th>Cost</th>
+                        <th>Healthiness</th>
+                </tr>
+        {% for meal in meals %}
+                <tr>
+                        <td>{{meal.name}}</td>
+                        <td>{{meal.all_ingredients}}</td>
+                        <td>{{meal.cost}}</td>
+                        <td>{{meal.healthiness}}/5</td>
+                </tr>
+        {% endfor %}
+        </table>
+{% endblock %}
