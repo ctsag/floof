@@ -2,6 +2,7 @@
 {% load static %}
 {% block title %}Welcome!{% endblock %}
 {% block content %}
+        <a href="{% url 'index' %}">Back home</a>
         <h2>Meals</h2>
         <table>
                 <tr>
@@ -9,6 +10,7 @@
                         <th>Ingredients</th>
                         <th>Cost</th>
                         <th>Healthiness</th>
+                        <th>Delete</th>
                 </tr>
         {% for meal in meals %}
                 <tr>
@@ -16,6 +18,14 @@
                         <td>{{meal.all_ingredients}}</td>
                         <td>{{meal.cost}}</td>
                         <td>{{meal.healthiness}}/5</td>
+                        <td>
+                                <a
+                                        href="{% url 'meals_delete' id=meal.id %}"
+                                        onclick="return confirm('Are you sure?')"
+                                >
+                                        Delete
+                                </a>
+                        </td>
                 </tr>
         {% endfor %}
         </table>
