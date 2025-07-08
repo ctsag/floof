@@ -2,22 +2,39 @@
 {% block title %}Edit ingredient{% endblock %}
 {% block content %}
         <a href="{% url 'ingredients' %}">Back to ingredients</a>
-        <h1>View ingredient</h1>
+        <h1>
+                View ingredient (
+                <a href="{% url 'ingredient_edit' id=ingredient.id %}">Edit</a>
+                |
+                <a
+                        href="{% url 'ingredient_delete' id=ingredient.id %}"
+                        onclick="return confirm('Are you sure?')"
+                >
+                        Delete
+                </a>
+                )
+        </h1>
         <p>
                 <div><b>Name: </b>{{ingredient.name}}</div>
                 <div><b>Servings: </b>{{ingredient.servings}}</div>
                 <div><b>Price: </b>{{ingredient.price}}</div>
                 <div><b>URL: </b><a href="{{ingredient.url}}">{{ingredient.url}}</a></div>
         </p>
-        <p>
-                <div><a href="{% url 'ingredient_edit' id=ingredient.id %}">Edit</a></div>
-                <div>
-                        <a
-                                href="{% url 'ingredient_delete' id=ingredient.id %}"
-                                onclick="return confirm('Are you sure?')"
-                        >
-                                Delete
-                        </a>
-                </div>
-        </p>
+{% if ingredient.pricehistory_set.count > 0 %}
+        <h1>Price history</h1>
+        <table>
+                <tr>
+                        <th>Previous price</th>
+                        <th>New price</th>
+                        <th>Modified at</th>
+                </tr>
+        {% for modification in ingredient.pricehistory_set.all %}
+                <tr>
+                        <td>{{modification.prev_price}}</td>
+                        <td>{{modification.new_price}}</td>
+                        <td>{{modification.formatted_change_date}}</td>
+                </tr>
+        {% endfor %}
+        </table>
+{% endif %}
 {% endblock %}

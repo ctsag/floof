@@ -1,21 +1,21 @@
 {% extends 'base.html' %}
 {% block title %}Edit meal{% endblock %}
 {% block content %}
+        <a href="{% url 'meals' %}">Back to meals</a>
+        <h1>
+                View meal (
+                <a href="{% url 'meal_edit' id=meal.id %}">Edit</a>
+                |
+                <a
+                        href="{% url 'meal_delete' id=meal.id %}"
+                        onclick="return confirm('Are you sure?')"
+                >
+                        Delete
+                </a>
+                )
+        </h1>
         <p>
-                <a href="{% url 'meals' %}">Back to meals</a>
-                <h1>View meal</h1>
                 <div><b>Name: </b>{{meal.name}}</div>
                 <div><b>Healthiness: </b>{{meal.healthiness}}/5</div>
-        </p>
-        <p>
-                <div><a href="{% url 'meal_edit' id=meal.id %}">Edit</a></div>
-                <div>
-                        <a
-                                href="{% url 'meal_delete' id=meal.id %}"
-                                onclick="return confirm('Are you sure?')"
-                        >
-                                Delete
-                        </a>
-                </div>
         </p>
 {% endblock %}
