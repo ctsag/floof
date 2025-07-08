@@ -79,7 +79,7 @@ class MealIngredient(models.Model):
     objects = models.Manager()
 
     def cost(self):
-        return self.ingredient.unit_cost() * self.quantity
+        return round(self.ingredient.unit_cost() * self.quantity, 2)
 
     def __str__(self):
         return f'{self.quantity}x {self.ingredient} @{self.cost():.2f}€'

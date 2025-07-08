@@ -4,10 +4,10 @@
         <a href="{% url 'meals' %}">Back to meals</a>
         <h1>
                 View meal (
-                <a href="{% url 'meal_edit' id=meal.id %}">Edit</a>
+                <a href="{% url 'meal_edit' id=meal.id %}?ref=callback">Edit</a>
                 |
                 <a
-                        href="{% url 'meal_delete' id=meal.id %}"
+                        href="{% url 'meal_delete' id=meal.id %}?ref=callback"
                         onclick="return confirm('Are you sure?')"
                 >
                         Delete
@@ -17,5 +17,34 @@
         <p>
                 <div><b>Name: </b>{{meal.name}}</div>
                 <div><b>Healthiness: </b>{{meal.healthiness}}/5</div>
+                <div><b>Cost: </b>{{meal.cost}}€</div>
         </p>
+        <h1>Ingredients <a href="{% url 'mealingredient_add' meal_id=meal.id %}">(Add)</a></h1>
+        {% if meal.mealingredient_set.count > 0 %}
+        <table>
+                <tr>
+                        <th>Ingredient</th>
+                        <th>Quantity</th>
+                        <th>Cost</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                </tr>
+                {% for component in meal.mealingredient_set.all %}
+                <tr>
+                        <td>{{component.ingredient.name}}</td>
+                        <td class="numeric">{{component.quantity}}</td>
+                        <td class="numeric">{{component.cost}}€</td>
+                        <td><a href="{% url 'mealingredient_edit' id=component.id %}">Edit</a></td>
+                        <td>
+                                <a
+                                        href="{% url 'mealingredient_delete' id=component.id %}"
+                                        onclick="return confirm('Are you sure?')"
+                                >
+                                        Delete
+                                </a>
+                        </td>
+                </tr>
+                {% endfor %}
+        </table>
+        {% endif %}
 {% endblock %}
