@@ -1,8 +1,12 @@
 {% extends 'base.html' %}
 {% block title %}Edit meal{% endblock %}
 {% block content %}
+        {% if callback %}
+        <a href="{% url 'meal_view' id=callback %}">Back to meal</a>
+        {% else %}
         <a href="{% url 'meals' %}">Back to meals</a>
-        <h1>Edit ingredient</h1>
+        {% endif %}
+        <h1>Edit meal</h1>
         <form method="post">
             {% csrf_token %}
             <table>

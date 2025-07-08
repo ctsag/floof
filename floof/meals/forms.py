@@ -1,5 +1,5 @@
-from django.forms import ModelForm, NumberInput, TextInput
-from meals.models import Ingredient, Meal
+from django.forms import ModelForm, NumberInput, Select, TextInput
+from meals.models import Ingredient, Meal, MealIngredient
 
 
 class MealForm(ModelForm):
@@ -21,4 +21,15 @@ class IngredientForm(ModelForm):
             'servings': NumberInput(attrs={'type': 'number', 'step': 1}),
             'price': NumberInput(attrs={'type': 'number', 'step': 0.01}),
             'url': TextInput(attrs={'type': 'url'})
+        }
+
+
+class MealIngredientForm(ModelForm):
+    class Meta:
+        model = MealIngredient
+        fields = '__all__'
+        widgets = {
+            'meal': Select(attrs={'required': 'true'}),
+            'ingredient': Select(attrs={'required': 'true'}),
+            'quantity': NumberInput(attrs={'type': 'number', 'step': 1})
         }

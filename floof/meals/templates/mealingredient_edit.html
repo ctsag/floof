@@ -1,8 +1,8 @@
 {% extends 'base.html' %}
-{% block title %}Add ingredient{% endblock %}
+{% block title %}Edit meal{% endblock %}
 {% block content %}
-        <a href="{% url 'ingredients' %}">Back to ingredients</a>
-        <h1>Add ingredient</h1>
+        <a href="{% url 'meal_view' id=meal_id %}">Back to meal</a>
+        <h1>Edit meal ingredients</h1>
         <form method="post">
             {% csrf_token %}
             <table>
