@@ -1,6 +1,6 @@
 from django.shortcuts import get_object_or_404, render, redirect
-from meals.forms import IngredientForm, MealForm, MealIngredientForm
-from meals.models import Ingredient, Meal, MealIngredient
+from menu.forms import IngredientForm, MealForm, MealIngredientForm
+from menu.models import Ingredient, Meal, MealIngredient
 
 def meal_index(request):
     return render(

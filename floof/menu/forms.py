@@ -1,5 +1,5 @@
 from django.forms import ModelForm, NumberInput, Select, TextInput
-from meals.models import Ingredient, Meal, MealIngredient
+from menu.models import Ingredient, Meal, MealIngredient
 
 
 class MealForm(ModelForm):

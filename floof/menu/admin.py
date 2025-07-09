@@ -1,5 +1,5 @@
 from django.contrib import admin
-from meals.models import Meal, Ingredient, MealIngredient, PriceHistory
+from menu.models import Meal, Ingredient, MealIngredient, PriceHistory
 
 admin.site.register(Meal)
 admin.site.register(Ingredient)

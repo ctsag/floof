@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from meals.models import Ingredient, Meal
+from menu.models import Ingredient, Meal
 
 
 def index(request):
