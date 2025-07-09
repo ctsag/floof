@@ -18,7 +18,13 @@
                 <div><b>Name: </b>{{ingredient.name}}</div>
                 <div><b>Servings: </b>{{ingredient.servings}}</div>
                 <div><b>Price: </b>{{ingredient.price}}</div>
-                <div><b>URL: </b><a href="{{ingredient.url}}">{{ingredient.url}}</a></div>
+                <div><b>URL: </b>
+        {% if ingredient.url %}
+                        <a href="{{ingredient.url}}" target="_blank">{{ingredient.url}}</a>
+        {% else %}
+                        None
+        {% endif %}
+                </div>
         </p>
         {% if ingredient.pricehistory_set.count > 0 %}
         <h1>Price history</h1>
