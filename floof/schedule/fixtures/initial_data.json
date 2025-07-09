@@ -1,0 +1,68 @@
+[
+{
+    "model": "schedule.slottype",
+    "pk": 1,
+    "fields": {
+        "name": "Πρωϊνό"
+    }
+},
+{
+    "model": "schedule.slottype",
+    "pk": 2,
+    "fields": {
+        "name": "Γεύμα"
+    }
+},
+{
+    "model": "schedule.slottype",
+    "pk": 3,
+    "fields": {
+        "name": "Snack"
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 1,
+    "fields": {
+        "name": "Πρωϊνό",
+        "slot_type": 1,
+        "order": 1
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 2,
+    "fields": {
+        "name": "Μεσημεριανό",
+        "slot_type": 2,
+        "order": 2
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 3,
+    "fields": {
+        "name": "Απογευματινό",
+        "slot_type": 3,
+        "order": 3
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 4,
+    "fields": {
+        "name": "Βραδινό",
+        "slot_type": 2,
+        "order": 4
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 5,
+    "fields": {
+        "name": "Snack",
+        "slot_type": 3,
+        "order": 5
+    }
+}
+]

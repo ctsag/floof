@@ -674,7 +674,8 @@
     "pk": 1,
     "fields": {
         "name": "Πρωϊνό",
-        "healthiness": 5
+        "healthiness": 5,
+        "slot_type": 2
     }
 },
 {
@@ -682,7 +683,8 @@
     "pk": 2,
     "fields": {
         "name": "Pizza",
-        "healthiness": 1
+        "healthiness": 1,
+        "slot_type": 2
     }
 },
 {
@@ -690,7 +692,8 @@
     "pk": 3,
     "fields": {
         "name": "Καρπούζι",
-        "healthiness": 5
+        "healthiness": 5,
+        "slot_type": 3
     }
 },
 {
@@ -698,7 +701,8 @@
     "pk": 4,
     "fields": {
         "name": "Αρακάς και κοτόπουλο",
-        "healthiness": 5
+        "healthiness": 5,
+        "slot_type": 2
     }
 },
 {
@@ -706,7 +710,8 @@
     "pk": 6,
     "fields": {
         "name": "Κοτόπουλο και σαλάτα",
-        "healthiness": 5
+        "healthiness": 5,
+        "slot_type": 2
     }
 },
 {
@@ -714,7 +719,8 @@
     "pk": 7,
     "fields": {
         "name": "Παγωτό σε χωνάκια",
-        "healthiness": 1
+        "healthiness": 1,
+        "slot_type": 3
     }
 },
 {
@@ -722,7 +728,8 @@
     "pk": 8,
     "fields": {
         "name": "Γιαούρτι",
-        "healthiness": 5
+        "healthiness": 5,
+        "slot_type": 3
     }
 },
 {
@@ -730,7 +737,8 @@
     "pk": 9,
     "fields": {
         "name": "Χταπόδι και σαλάτα",
-        "healthiness": 5
+        "healthiness": 5,
+        "slot_type": 2
     }
 },
 {
@@ -738,7 +746,8 @@
     "pk": 10,
     "fields": {
         "name": "Πατατάκια",
-        "healthiness": 2
+        "healthiness": 2,
+        "slot_type": 3
     }
 },
 {
@@ -746,7 +755,8 @@
     "pk": 11,
     "fields": {
         "name": "Μπιφτέκια και σαλάτα",
-        "healthiness": 4
+        "healthiness": 4,
+        "slot_type": 2
     }
 },
 {
@@ -754,7 +764,8 @@
     "pk": 12,
     "fields": {
         "name": "Nutella sticks",
-        "healthiness": 1
+        "healthiness": 1,
+        "slot_type": 3
     }
 },
 {
@@ -762,7 +773,8 @@
     "pk": 13,
     "fields": {
         "name": "Τορτελίνια με λουκάνικο",
-        "healthiness": 3
+        "healthiness": 3,
+        "slot_type": 2
     }
 },
 {
@@ -770,7 +782,8 @@
     "pk": 14,
     "fields": {
         "name": "Τοστ παριζάκι και πατατάκια",
-        "healthiness": 3
+        "healthiness": 3,
+        "slot_type": 2
     }
 },
 {
@@ -778,7 +791,8 @@
     "pk": 15,
     "fields": {
         "name": "Τοστ παριζάκι",
-        "healthiness": 4
+        "healthiness": 4,
+        "slot_type": 2
     }
 },
 {
@@ -786,7 +800,8 @@
     "pk": 16,
     "fields": {
         "name": "Burgers",
-        "healthiness": 2
+        "healthiness": 2,
+        "slot_type": 2
     }
 },
 {
@@ -794,7 +809,8 @@
     "pk": 17,
     "fields": {
         "name": "Πεπόνι",
-        "healthiness": 5
+        "healthiness": 5,
+        "slot_type": 3
     }
 },
 {
@@ -802,7 +818,8 @@
     "pk": 18,
     "fields": {
         "name": "Crackers",
-        "healthiness": 3
+        "healthiness": 3,
+        "slot_type": 3
     }
 },
 {
@@ -810,7 +827,8 @@
     "pk": 19,
     "fields": {
         "name": "Βίδες",
-        "healthiness": 3
+        "healthiness": 3,
+        "slot_type": 2
     }
 },
 {
@@ -818,7 +836,8 @@
     "pk": 20,
     "fields": {
         "name": "Σπανακόπιτα",
-        "healthiness": 4
+        "healthiness": 4,
+        "slot_type": 2
     }
 },
 {
@@ -826,15 +845,8 @@
     "pk": 22,
     "fields": {
         "name": "Pop Corn",
-        "healthiness": 3
-    }
-},
-{
-    "model": "menu.meal",
-    "pk": 23,
-    "fields": {
-        "name": "Εκτός σπιτιού",
-        "healthiness": 1
+        "healthiness": 3,
+        "slot_type": 3
     }
 },
 {
@@ -842,7 +854,8 @@
     "pk": 24,
     "fields": {
         "name": "Μακαρόνια με κιμά",
-        "healthiness": 4
+        "healthiness": 4,
+        "slot_type": 2
     }
 },
 {
@@ -850,7 +863,8 @@
     "pk": 27,
     "fields": {
         "name": "Falafel",
-        "healthiness": 4
+        "healthiness": 4,
+        "slot_type": 2
     }
 },
 {
@@ -858,7 +872,8 @@
     "pk": 28,
     "fields": {
         "name": "Κριθαράκι με κοτόπουλο",
-        "healthiness": 5
+        "healthiness": 5,
+        "slot_type": 2
     }
 },
 {
@@ -866,7 +881,8 @@
     "pk": 29,
     "fields": {
         "name": "Μπανάνα",
-        "healthiness": 5
+        "healthiness": 5,
+        "slot_type": 3
     }
 },
 {
@@ -874,7 +890,8 @@
     "pk": 30,
     "fields": {
         "name": "Μπριζόλα και σαλάτα",
-        "healthiness": 4
+        "healthiness": 4,
+        "slot_type": 2
     }
 },
 {
@@ -882,7 +899,8 @@
     "pk": 31,
     "fields": {
         "name": "Πίτες με κεμπάπ",
-        "healthiness": 3
+        "healthiness": 3,
+        "slot_type": 2
     }
 },
 {
@@ -890,7 +908,8 @@
     "pk": 32,
     "fields": {
         "name": "Σνιτσελ και σαλάτα",
-        "healthiness": 4
+        "healthiness": 4,
+        "slot_type": 2
     }
 },
 {
