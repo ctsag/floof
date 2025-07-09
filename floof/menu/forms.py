@@ -5,9 +5,11 @@ from menu.models import Ingredient, Meal, MealIngredient
 class MealForm(ModelForm):
     class Meta:
         model = Meal
-        fields = ['name', 'healthiness']
+        fields = ['name', 'slot_type', 'healthiness']
+        labels = {'slot_type': 'Type'}
         widgets = {
             'name': TextInput(attrs={'type': 'text'}),
+            'slot_type': Select(attrs={'required': 'true'}),
             'healthiness': NumberInput(attrs={'type': 'number', 'step': 1, 'min': 1, 'max': 5})
         }
 
