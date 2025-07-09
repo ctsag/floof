@@ -1,22 +1,6 @@
 from django.core.validators import MaxValueValidator, MinValueValidator
 from django.db import models
-
-
-class PriceHistory(models.Model):
-    class Meta:
-        verbose_name_plural = 'price history'
-
-    ingredient = models.ForeignKey('Ingredient', on_delete=models.CASCADE)
-    prev_price = models.DecimalField(max_digits=4, decimal_places=2, default=0)
-    new_price = models.DecimalField(max_digits=4, decimal_places=2, default=0)
-    changed_at = models.DateTimeField(auto_now=True)
-
-    def formatted_change_date(self):
-        return self.changed_at.strftime('%B %d, %Y %H:%M:%S')
-
-    def __str__(self):
-        return f"""{self.ingredient} from {self.prev_price} to {self.new_price}
-        at {self.formatted_change_date()}"""
+from schedule.models import SlotType
 
 
 class Ingredient(models.Model):
@@ -48,11 +32,29 @@ class Ingredient(models.Model):
         return f'{self.name}'
 
 
+class PriceHistory(models.Model):
+    class Meta:
+        verbose_name_plural = 'price history'
+
+    ingredient = models.ForeignKey(Ingredient, on_delete=models.CASCADE)
+    prev_price = models.DecimalField(max_digits=4, decimal_places=2, default=0)
+    new_price = models.DecimalField(max_digits=4, decimal_places=2, default=0)
+    changed_at = models.DateTimeField(auto_now=True)
+
+    def formatted_change_date(self):
+        return self.changed_at.strftime('%B %d, %Y %H:%M:%S')
+
+    def __str__(self):
+        return f"""{self.ingredient} from {self.prev_price} to {self.new_price}
+        at {self.formatted_change_date()}"""
+
+
 class Meal(models.Model):
     class Meta:
         ordering = ['name']
 
     name = models.CharField(max_length=128)
+    slot_type = models.ForeignKey(SlotType, on_delete=models.CASCADE)
     healthiness = models.IntegerField(
         default=1,
         validators=[MinValueValidator(1), MaxValueValidator(5)]
