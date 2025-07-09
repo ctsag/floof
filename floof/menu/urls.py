@@ -3,27 +3,27 @@ from . import views
 
 urlpatterns = [
     path(
-        '',
+        'meals',
         views.meal_index,
         name='meals'
     ),
     path(
-        '<int:id>',
+        'meals/<int:id>',
         views.meal_view,
         name='meal_view'
     ),
     path(
-        'add',
+        'meals/add',
         views.meal_add,
         name='meal_add'
     ),
     path(
-        'edit/<int:id>',
+        'meals/edit/<int:id>',
         views.meal_edit,
         name='meal_edit'
     ),
     path(
-        'delete/<int:id>',
+        'meals/delete/<int:id>',
         views.meal_delete,
         name='meal_delete'
     ),
