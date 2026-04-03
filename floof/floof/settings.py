@@ -27,7 +27,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'floof.urls'
+ROOT_URLCONF = 'poop.urls'
 
 TEMPLATES = [
     {
@@ -44,7 +44,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'floof.wsgi.application'
+WSGI_APPLICATION = 'poop.wsgi.application'
 
 DATABASES = {
     'default': {
