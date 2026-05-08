@@ -1,2 +1,2 @@
-# Floof
-Floof : Your Meal Planner
+# Poop
+Poop : Your Meal Planner
